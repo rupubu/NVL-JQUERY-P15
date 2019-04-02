@@ -1,0 +1,20 @@
+#contenedor {
+    position: absolute;
+    top:50%;
+    width: 100%;
+    transform: translate(0, -50%);
+    text-align: center;
+ } 
+img {
+    width: 25%;
+    vertical-align: middle;
+}
+.oculta {
+    display: none;
+}
+#cambio {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
